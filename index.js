@@ -20,7 +20,8 @@ const defaultConfig = {
     'selector-max-compound-selectors': 4,
     'color-named': null,
     'order/properties-alphabetical-order': null,
-    'scss/selector-no-redundant-nesting-selector': null
+    'scss/selector-no-redundant-nesting-selector': null,
+    'color-hex-length': 'long'
   }
 }
 
