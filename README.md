@@ -1,6 +1,6 @@
 # @sparing-software/stylelint-config
 
-`.stylelintrc`
+`.stylelintrc.json`
 
 ```json
 {
