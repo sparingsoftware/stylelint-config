@@ -8,8 +8,7 @@ const defaultConfig = {
   ],
   extends: [
     'stylelint-config-sass-guidelines',
-    'stylelint-config-recess-order',
-    'stylelint-config-prettier'
+    'stylelint-config-recess-order'
   ],
   plugins: ['stylelint-scss'],
   rules: {
