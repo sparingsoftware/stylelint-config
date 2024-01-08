@@ -20,6 +20,7 @@ const defaultConfig = {
     'color-named': null,
     'order/properties-alphabetical-order': null,
     'scss/selector-no-redundant-nesting-selector': null,
+    'scss/dollar-variable-colon-space-after': null,
     'color-hex-length': 'long'
   }
 }
