@@ -7,6 +7,7 @@ const defaultConfig = {
     }
   ],
   extends: [
+    'stylelint-config-recommended-scss',
     'stylelint-config-sass-guidelines',
     'stylelint-config-recess-order'
   ],
@@ -43,7 +44,21 @@ const defaultConfig = {
     ],
     'scss/selector-no-redundant-nesting-selector': null,
     'scss/dollar-variable-colon-space-after': null,
-    'color-hex-length': 'long'
+    'color-hex-length': 'long',
+    'no-empty-source': null,
+    'selector-max-id': 1,
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['deep', 'global', 'slotted']
+      }
+    ],
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted']
+      }
+    ]
   }
 }
 
