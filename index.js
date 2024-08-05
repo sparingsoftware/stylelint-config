@@ -58,7 +58,10 @@ const defaultConfig = {
       {
         ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted']
       }
-    ]
+    ],
+    'declaration-property-unit-disallowed-list': {
+      '/.*/': ['ms']
+    }
   }
 }
 
