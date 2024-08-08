@@ -44,6 +44,7 @@ const defaultConfig = {
     ],
     'scss/selector-no-redundant-nesting-selector': null,
     'scss/dollar-variable-colon-space-after': null,
+    'scss/operator-no-newline-after': null,
     'color-hex-length': 'long',
     'no-empty-source': null,
     'selector-max-id': 1,
